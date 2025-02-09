@@ -1,28 +1,11 @@
 # This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
 
-provider "registry.terraform.io/hashicorp/cloudinit" {
-  version = "2.2.0"
-  hashes = [
-    "h1:siiI0wK6/jUDdA5P8ifTO0yc9YmXHml4hz5K9I9N+MA=",
-    "zh:76825122171f9ea2287fd27e23e80a7eb482f6491a4f41a096d77b666896ee96",
-    "zh:795a36dee548e30ca9c9d474af9ad6d29290e0a9816154ad38d55381cd0ab12d",
-    "zh:9200f02cb917fb99e44b40a68936fd60d338e4d30a718b7e2e48024a795a61b9",
-    "zh:a33cf255dc670c20678063aa84218e2c1b7a67d557f480d8ec0f68bc428ed472",
-    "zh:ba3c1b2cd0879286c1f531862c027ec04783ece81de67c9a3b97076f1ce7f58f",
-    "zh:bd575456394428a1a02191d2e46af0c00e41fd4f28cfe117d57b6aeb5154a0fb",
-    "zh:c68dd1db83d8437c36c92dc3fc11d71ced9def3483dd28c45f8640cfcd59de9a",
-    "zh:cbfe34a90852ed03cc074601527bb580a648127255c08589bc3ef4bf4f2e7e0c",
-    "zh:d6ffd7398c6d1f359b96f5b757e77b99b339fbb91df1b96ac974fe71bc87695c",
-    "zh:d9c15285f847d7a52df59e044184fb3ba1b7679fd0386291ed183782683d9517",
-    "zh:f7dd02f6d36844da23c9a27bb084503812c29c1aec4aba97237fec16860fdc8c",
-  ]
-}
-
 provider "registry.terraform.io/hashicorp/external" {
   version = "2.2.0"
   hashes = [
     "h1:V1XoXkVwM+Bg73BNtbMxScjTcty2jbRZzgSdHrYxQ+4=",
+    "h1:iU5OVMibHvIxbj2Dye1q3aYpjYXS3bKL9iZWZyh+xTg=",
     "zh:094c3cfae140fbb70fb0e272b1df833b4d7467c6c819fbf59a3e8ac0922f95b6",
     "zh:15c3906abbc1cd03a72afd02bda9caeeb5f6ca421292c32ddeb2acd7a3488669",
     "zh:388c14bceeb1593bb16cadedc8f5ad7d41d398197db049dc0871bc847aa61083",
@@ -42,6 +25,7 @@ provider "registry.terraform.io/hashicorp/http" {
   version = "2.1.0"
   hashes = [
     "h1:GYoVrTtiSAE3AlP1fad3fFmHoPaXAPhm/DJyMcVCwZA=",
+    "h1:HmUcHqc59VeHReHD2SEhnLVQPUKHKTipJ8Jxq67GiDU=",
     "zh:03d82dc0887d755b8406697b1d27506bc9f86f93b3e9b4d26e0679d96b802826",
     "zh:0704d02926393ddc0cfad0b87c3d51eafeeae5f9e27cc71e193c141079244a22",
     "zh:095ea350ea94973e043dad2394f10bca4a4bf41be775ba59d19961d39141d150",
@@ -60,6 +44,7 @@ provider "registry.terraform.io/kamatera/kamatera" {
   version     = "0.7.5"
   constraints = "~> 0.7.5"
   hashes = [
+    "h1:nl1JQIVAgMyPmHs5E0wjHE8FFXqQRcDOXkfPBC6+5eI=",
     "h1:p1+U/m1tYph9bbcgFjbh1zD0ffd98qZpbqDDL69g74s=",
     "zh:00fc8a06a80c20a9399c1bc29b8e627d98c92cce17b7049f5f06ac48cd67e48a",
     "zh:0c36c035eab2bc476493e23f47a2be089b5d7e731bfecbd906bcc4be543cf399",
@@ -81,6 +66,7 @@ provider "registry.terraform.io/ojford/wireguard" {
   version     = "0.1.3"
   constraints = "~> 0.1.3"
   hashes = [
+    "h1:IO4AiDHZnd2FZ24bTcCFMbL2dZbjuYuJuglBPWVxr8A=",
     "h1:tLwoMLiWsjpvS+83Ee270mj1gf7ivZPYCghWpBD4VqE=",
     "zh:00b01809ab0336f2643a1e2f97c85d5fc4539fff5561c24ab4d195f6d4e5d4c6",
     "zh:026abd9aed1282ba237f18a7c1742c8e84a9ad61bf178cd6a6568214505c2d52",

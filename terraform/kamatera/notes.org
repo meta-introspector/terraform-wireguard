@@ -1,0 +1,78 @@
+mdupont@mdupont-G470:~/2025/02/07/terraform-wireguard/terraform/kamatera$ terraform init
+
+Initializing the backend...
+
+Initializing provider plugins...
+- Reusing previous version of hashicorp/http from the dependency lock file
+- Reusing previous version of kamatera/kamatera from the dependency lock file
+- Reusing previous version of ojford/wireguard from the dependency lock file
+- Reusing previous version of hashicorp/external from the dependency lock file
+- Installing hashicorp/http v2.1.0...
+- Installed hashicorp/http v2.1.0 (signed by HashiCorp)
+- Installing kamatera/kamatera v0.7.5...
+- Installed kamatera/kamatera v0.7.5 (self-signed, key ID 5184D4E11B219756)
+- Installing ojford/wireguard v0.1.3...
+- Installed ojford/wireguard v0.1.3 (self-signed, key ID C8AD6EB555559AD4)
+- Installing hashicorp/external v2.2.0...
+- Installed hashicorp/external v2.2.0 (signed by HashiCorp)
+
+Partner and community providers are signed by their developers.
+If you'd like to know more about provider signing, you can read about it here:
+https://www.terraform.io/docs/cli/plugins/signing.html
+
+Terraform has made some changes to the provider dependency selections recorded
+in the .terraform.lock.hcl file. Review those changes and commit them to your
+version control system if they represent changes you intended to make.
+
+Terraform has been successfully initialized!
+
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.
+mdupont@mdupont-G470:~/2025/02/07/terraform-wireguard/terraform/kamatera$ terraform apply
+var.region
+  The wireguard server's desired region. Valid regions at https://www.kamatera.com/Global_Data_Centers#page_383, to get region ids use their cli and run cloudcli server options --datacenter.
+
+  Enter a value:   C-c C-c
+
+Interrupt received.
+Please wait for Terraform to exit or data loss may occur.
+Gracefully shutting down...
+
+╷
+│ Error: No value for required variable
+│ 
+│   on variables.tf line 1:
+│    1: variable "ssh_public_key" {
+│ 
+│ The root module input variable "ssh_public_key" is not set, and has no default value. Use a -var or -var-file command line argument to provide a value for this variable.
+╵
+╷
+│ Error: No value for required variable
+│ 
+│   on variables.tf line 6:
+│    6: variable "region" {
+│ 
+│ The root module input variable "region" is not set, and has no default value. Use a -var or -var-file command line argument to provide a value for this variable.
+╵
+╷
+│ Error: No value for required variable
+│ 
+│   on variables.tf line 19:
+│   19: variable "secret_id" {
+│ 
+│ The root module input variable "secret_id" is not set, and has no default value. Use a -var or -var-file command line argument to provide a value for this variable.
+╵
+╷
+│ Error: No value for required variable
+│ 
+│   on variables.tf line 24:
+│   24: variable "secret_key" {
+│ 
+│ The root module input variable "secret_key" is not set, and has no default value. Use a -var or -var-file command line argument to provide a value for this variable.
+╵
+mdupont@mdupont-G470:~/2025/02/07/terraform-wireguard/terraform/kamatera$ 
